@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="XIN-ZR-ClY">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ecology" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MnB-C1-hxk">
+                    <rect key="frame" x="40" y="80" width="80" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dv1-73-gPd">
+                    <rect key="frame" x="40" y="130" width="15.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At this place, you can live up to 75 years!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaJ-tE-2ZG">
+                    <rect key="frame" x="77" y="319" width="400" height="27.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wdHt_-T7hhA" translatesAutoresizingMaskIntoConstraints="NO" id="4YA-FN-apO">
+                    <rect key="frame" x="60" y="415" width="100" height="115"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="rXa-da-Ef9"/>
+                        <constraint firstAttribute="height" constant="115" id="xJN-mH-Q6P"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUA-DL-Izz">
+                    <rect key="frame" x="136" y="582" width="109" height="40"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                    <state key="normal" title="GO HOME">
+                        <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="prognosis accuracy " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lyd-vn-cIs">
+                    <rect key="frame" x="168" y="458" width="198.5" height="27.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Dv1-73-gPd" firstAttribute="leading" secondItem="MnB-C1-hxk" secondAttribute="trailing" constant="-80" id="05W-h8-0jj"/>
+                <constraint firstItem="YaJ-tE-2ZG" firstAttribute="leading" secondItem="Dv1-73-gPd" secondAttribute="trailing" constant="21.5" id="1Zx-fr-tzy"/>
+                <constraint firstItem="aUA-DL-Izz" firstAttribute="top" secondItem="4YA-FN-apO" secondAttribute="bottom" constant="52" id="2ki-Q7-Omm"/>
+                <constraint firstItem="4YA-FN-apO" firstAttribute="top" secondItem="YaJ-tE-2ZG" secondAttribute="bottom" constant="68.5" id="BZS-8N-JKz"/>
+                <constraint firstItem="Lyd-vn-cIs" firstAttribute="top" secondItem="YaJ-tE-2ZG" secondAttribute="bottom" constant="111.5" id="IZq-iH-Y8O"/>
+                <constraint firstItem="aUA-DL-Izz" firstAttribute="leading" secondItem="4YA-FN-apO" secondAttribute="trailing" constant="-24" id="Jnc-1r-E7e"/>
+                <constraint firstItem="4YA-FN-apO" firstAttribute="leading" secondItem="LDG-fE-zZc" secondAttribute="leading" constant="60" id="N3C-kp-76x"/>
+                <constraint firstItem="MnB-C1-hxk" firstAttribute="leading" secondItem="LDG-fE-zZc" secondAttribute="leading" constant="40" id="Otb-Cw-ieT"/>
+                <constraint firstItem="Lyd-vn-cIs" firstAttribute="leading" secondItem="4YA-FN-apO" secondAttribute="trailing" constant="8" id="Rsl-Fk-SKH"/>
+                <constraint firstItem="MnB-C1-hxk" firstAttribute="top" secondItem="LDG-fE-zZc" secondAttribute="top" constant="80" id="cwV-qh-Hb9"/>
+                <constraint firstItem="Dv1-73-gPd" firstAttribute="top" secondItem="MnB-C1-hxk" secondAttribute="bottom" constant="22" id="lDN-Np-36h"/>
+                <constraint firstItem="YaJ-tE-2ZG" firstAttribute="top" secondItem="MnB-C1-hxk" secondAttribute="bottom" constant="211" id="oP7-Hq-0GU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="LDG-fE-zZc"/>
+            <point key="canvasLocation" x="104.8" y="16.641679160419791"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="wdHt_-T7hhA" width="122" height="144"/>
+    </resources>
+</document>
